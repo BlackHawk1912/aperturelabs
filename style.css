@@ -7,10 +7,12 @@ body {
 	line-height: 22px;
 }
 
+/* ===========HEADER=========== */
+
 .header {
 	background: #161618;
 	padding: 20px;
-	float: top;
+
 }
 
 .header ul
@@ -25,16 +27,14 @@ body {
 	display: inline;
 }
 
-.header ul li a
-{
+.header ul li a {
 	text-decoration: none;
 	padding: 20px;
 	color: #fff;
 	background-color: #161618;
 }
 
-.header ul li a:hover
-{
+.header ul li a:hover{
 	color: #000;
 	background-color: #3fa85d;
 }
@@ -47,6 +47,17 @@ body {
 
 }
 
+/* ==========CONTENT========== */
+
 .content p {
 	padding: 70px;
+}
+
+/* ===========FOOTER========== */
+
+.footer {
+	background-color: #161618;
+	color: #3fa85d;
+	text-align: center;
+	padding: 15px;
 }
