@@ -1,44 +1,37 @@
-body a {
-  color: #80ba24 !important;
+.navbar-right {
+	font-size: 20px;
+	font-style: heavy
 }
 
-.jumbotron {
-  background-image:url('jumbotron.jpg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position:center;
+.navbar-brand {
+	color: #666 !important;
+	font-weight: bold;
+	font-size: 30px;
 }
 
-.jumbotron .container {
-  position: relative;
-  top:100px;
+.navbar-right a {
+	color: #666;
 }
 
-.jumbotron h1 {
-  color: #fff;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
+.navbar-right a:hover {
+	color: #fff;
+	background-color: #3399cc !important;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
 
-.jumbotron p {
-  font-size: 20px;
+.navbar-static-top {
+	background-color: #d6d6d6;
+	border-bottom: solid 7px #3399cc;
 }
 
-/* tab color */
-.nav-tabs>li>a {
-  color:#80ba24;
-  font-size: 16px;
-}
-
-/* active tab color */
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
-  color: #80ba24;
-  color: #FFF;
-}
-
-/* hover tab color */
-.nav-tabs>li>a:hover {
-  background-color: #4a5c66;
-  color: #FFF;
+/* === FOOTER ===*/
+.footer {
+	background-color: #d6d6d6;
+	border-top: solid 7px #3399cc;
+	color: #898989;
+	font-size: 14px !important;
+	font-weight: initial;
+	text-align: center;
+	padding-top: 10px;
 }
