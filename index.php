@@ -1,41 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>svns41</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="js/bootstrap.js" rel="text/javascript">
-	<link rel="stylesheet" href="style.css">
+<?php include "header.php";?>
 
-</head>
-
-<body>
-
-	<!-- Header Menu -->
-	<nav class="navbar navbar-default navbar-static-top">
-		<div class="container">
-			<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a href="/" class="navbar-brand hidden-xs">svns41</a>
-			
-			<div class="navbar-collapse collapse navbar-responsive-collapse navbar-right">
-				<ul class="nav navbar-nav">
-					<li><a href="#">Start</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">Datenschutz</a></li>
-					<li><a href="#">Impressum</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<!-- Header END -->
-	
 	<!-- Body -->
 	<div class="container">
 		<!-- Carousel -->
@@ -78,29 +42,11 @@
 			<div class="col-md-12 featured">
 				<h1>Lorem Ipsum</h1>
 				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-				<a href="#" class="btn btn-lg btn-primary" type="button">Erfahren Sie mehr...</a>
+				<a href="links.php" class="btn btn-lg btn-primary" type="button">Erfahren Sie mehr...</a>
 			</div>
 		</div>
 	</div>
 
 	<!-- Body END-->
 
-	<!-- Footer -->
-	<nav class="navbar navbar-default navbar-sticky-bottom footer">
-		<div class="container">
-			&copy; 2015 Simon von Schnakenburg
-		</div>
-	</nav>
-	<!-- Footer END -->
-
-
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="../../assets/js/docs.min.js"></script>
-	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-</body>
-</html>
+<?php include "footer.php";?>

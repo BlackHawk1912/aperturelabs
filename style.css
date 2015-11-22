@@ -1,9 +1,14 @@
-/* === EVERYTHING ===*/
+/* === MISC ===*/
+body {
+	font-size: 17px;
+}
+
 .btn-primary {
 	background-color: #3399cc;
 	color: #fff;
 	border-radius: 15px;
 	border: none;
+	margin: auto;
 }
 
 /* === Header ===*/
@@ -57,7 +62,7 @@
 
 .featured {
 	padding: 40px;
-	color: #666666;
+	color: #898989;
 	font-size: 115%;
 	text-align: left;
 	margin-bottom: 40px;
@@ -67,9 +72,71 @@
 #myCarousel {
 	margin-top: 40px;
 	margin-bottom: 20px;
+
+}
+
+.carousel-caption {
+	background-color: rgba(0,0,0, 0.5);
+	font-size: 20px;
+}
+
+.carousel-caption h3{
+	font-size: 60px;
+	color: #fff !importants;
 }
 
 .container {
 	border-left: 4px solid #d6d6d6;
 	border-right: 4px solid #d6d6d6;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.thumbnail {
+	border: none;
+	border-radius: 0;
+	padding: 15px;
+	margin: 0;
+}
+
+.thumbnail h3 {
+	padding-bottom: 15px;
+}
+
+.thumbnail-before {
+	background-color: #d6d6d6;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom: solid 7px #3399cc;	
+	padding: 15px;
+}
+
+.thumbnail .link {
+	background-color: #e5e5e5;
+	padding: 10px;
+	font-size: 12px;
+	margin-bottom: 0px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	text-align: center;
+}
+
+.thumbnail .caption .btn {
+	width: 100% ;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 0px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.widget {
+	margin-top: 40px; 
+	margin-bottom: 40px; 
+}
+
+@media only screen and (max-width: 767px) { 
+	.widget {
+		border-top: 4px solid #d6d6d6;
+	}
 }
