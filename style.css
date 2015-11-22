@@ -1,6 +1,19 @@
+/* === EVERYTHING ===*/
+.btn-primary {
+	background-color: #3399cc;
+	color: #fff;
+	border-radius: 15px;
+	border: none;
+}
+
+/* === Header ===*/
+.navbar {
+	margin-bottom: 0;
+}
+
 .navbar-right {
 	font-size: 20px;
-	font-style: heavy
+	font-weight: bold;
 }
 
 .navbar-brand {
@@ -14,10 +27,10 @@
 }
 
 .navbar-right a:hover {
-	color: #fff;
+	color: #fff !important;
 	background-color: #3399cc !important;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 }
 
 .navbar-static-top {
@@ -25,6 +38,9 @@
 	border-bottom: solid 7px #3399cc;
 }
 
+.navbar-brand img {
+	height: 250%;
+}
 /* === FOOTER ===*/
 .footer {
 	background-color: #d6d6d6;
@@ -34,4 +50,26 @@
 	font-weight: initial;
 	text-align: center;
 	padding-top: 10px;
+}
+
+/* === MAIN ===*/
+
+
+.featured {
+	padding: 40px;
+	color: #666666;
+	font-size: 115%;
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+
+#myCarousel {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.container {
+	border-left: 4px solid #d6d6d6;
+	border-right: 4px solid #d6d6d6;
 }

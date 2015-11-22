@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/bootstrap-responsive.css" rel="stylesheet">				
-
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>svns41</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="js/bootstrap.js" rel="text/javascript">
 	<link rel="stylesheet" href="style.css">
 
 </head>
@@ -18,7 +21,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="/" class="navbar-brand">svns41</a>
+			<a href="/" class="navbar-brand hidden-xs">svns41</a>
 			
 			<div class="navbar-collapse collapse navbar-responsive-collapse navbar-right">
 				<ul class="nav navbar-nav">
@@ -30,20 +33,74 @@
 			</div>
 		</div>
 	</nav>
+
 	<!-- Header END -->
 	
 	<!-- Body -->
-	<div class="">
+	<div class="container">
+		<!-- Carousel -->
+		<div id="myCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="acitve"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+			</ol>
+
+			<div class="carousel-inner">
+				<!-- Item One -->
+				<div class="item active">
+					<img src="imgs/book-and-glasses.jpg" alt="Buch und Brille" class="img-responsive">
+					<div class="carousel-caption"><h3>Hallo auf Slide 1</h3></div>
+				</div>
+
+				<!-- Item Two -->
+				<div class="item">
+					<img src="imgs/blackboard.jpg" alt="Bücher" class="img-responsive">
+					<div class="carousel-caption"><h3>Hallo auf Slide 2</h3></div>
+				</div>
+
+				<!-- Item Three -->
+				<div class="item">
+					<img src="imgs/books.jpg" alt="Tafel" class="img-responsive">
+					<div class="carousel-caption"><h3>Hallo auf Slide 3</h3></div>
+				</div>
+			</div>
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+				<span class="icon-prev"></span>
+			</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">
+				<span class="icon-next"></span>
+			</a>
+		</div>
+		<!-- Carousel ENDE -->
 		
+		<div class="row">
+			<div class="col-md-12 featured">
+				<h1>Lorem Ipsum</h1>
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				<a href="#" class="btn btn-lg btn-primary" type="button">Erfahren Sie mehr...</a>
+			</div>
+		</div>
 	</div>
+
 	<!-- Body END-->
 
 	<!-- Footer -->
-	<nav class="navbar navbar-default navbar-fixed-bottom footer">
+	<nav class="navbar navbar-default navbar-sticky-bottom footer">
 		<div class="container">
-		&copy; 2015 Simon von Schnakenburg
+			&copy; 2015 Simon von Schnakenburg
 		</div>
 	</nav>
 	<!-- Footer END -->
+
+
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="../../assets/js/docs.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
