@@ -1,26 +1,20 @@
-<?php include "header.php";?>
-
-<!-- Body -->
+<!DOCTYPE html>
+<html>
+<head>
+<?php 
+	include ("php/layout/header.php");
+?>
+</head>
+<body>
+	<?php 
+		include('php/layout/nav.php');
+	?>
 <div class="container">
-	<!-- Carousel -->
-	<div id="myCarousel" class="carousel slide">
-		<div class="carousel-inner">
-			<!-- Item One -->
-			<div class="item active">
-				<img src="imgs/book-and-glasses.jpg" alt="Buch und Brille" class="img-responsive">
-				<div class="carousel-caption">
-					<h1>Links</h1>
-					<p>
-						Hier finden Sie alle geforderten Verlinkungen.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Carousel ENDE -->
-
 	<div class="row">
-
+		<div class="col-sm-12">
+			<h1>Links</h1>
+			<img src="imgs/book-and-glasses.jpg" alt="Buch und Brille" class="img-responsive">
+		</div>
 		<!-- Github Profil -->
 		<div class="col-sm-6 col-md-3 widget">
 			<div class="thumbnail">
@@ -28,7 +22,7 @@
 				<div class="caption">
 					<h3>Mein Profil auf Github</h3>
 					<p class="link">https://github.com/BlackHawk1912</p>
-					<p class="text-center"><a href="https://github.com/BlackHawk1912" target="blank" class="btn btn-primary" role="button">Klick...</a></p>
+					<p class="text-center"><a href="https://github.com/BlackHawk1912" target="blank" class="btn btn-primary" role="button" title="Github Profil">Klick...</a></p>
 					<p>Der link zu meinem Github Profil</p>
 				</div>
 			</div>
@@ -41,7 +35,7 @@
 				<div class="caption">
 					<h3>Mein Codecademy Profil</h3>
 					<p class="link">http://codecademy.com/svns41</p>
-					<p class="text-center"><a href="http://codecademy.com/svns41" target="blank" class="btn btn-primary" role="button">Klick...</a></p>
+					<p class="text-center"><a href="http://codecademy.com/svns41" target="blank" class="btn btn-primary" role="button" title="Codecademy">Klick...</a></p>
 					<p>Hier sind alle meine abgeschlossenen Codecademy-Kurse einsehbar (für registrierte Mitgleider)</p>
 				</div>
 			</div>
@@ -54,7 +48,7 @@
 				<div class="caption">
 					<h3>Github Pull Request "svns41"</h3>
 					<p class="link">https://github.com/BlackHawk1912/aperturelabs.git</p>
-					<p class="text-center"><a href="https://github.com/BlackHawk1912/aperturelabs.git" target="blank" class="btn btn-primary" role="button">Klick...</a></p>
+					<p class="text-center"><a href="https://github.com/BlackHawk1912/aperturelabs.git" target="blank" class="btn btn-primary" role="button" title="Github eigenes Repo">Klick...</a></p>
 					<p>Der Pull Request Link für diese Seite</p>
 				</div>
 			</div>
@@ -67,7 +61,7 @@
 				<div class="caption">
 					<h3>Github Pull Request "Kommilitone"</h3>
 					<p class="link">https://github.com/csar56/WS2015.git</p>
-					<p class="text-center"><a href="https://github.com/csar56/WS2015.git" target="blank" class="btn btn-primary" role="button">Klick...</a></p>
+					<p class="text-center"><a href="https://github.com/csar56/WS2015.git" target="blank" class="btn btn-primary" role="button" title="Github Partner Repo">Klick...</a></p>
 					<p>Der Link zum "Pull Request", den ich als Reviewer gestellt haben</p>
 				</div>
 			</div>
@@ -75,7 +69,8 @@
 
 	</div>
 </div>
-
-<!-- Body END-->
-
-<?php include "footer.php";?>
+<?php 
+	include('php/layout/footer.php');
+?>
+</body>
+</html>
