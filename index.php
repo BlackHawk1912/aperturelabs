@@ -1,14 +1,22 @@
-<?php include "header.php";?>
-
-	<!-- Body -->
+<!DOCTYPE html>
+<html>
+<head>
+<?php 
+	include ("php/layout/header.php");
+?>
+</head>
+<body>
+	<?php 
+		include('php/layout/nav.php');
+	?>
 	<div class="container">
 		<!-- Carousel -->
 		<div id="myCarousel" class="carousel slide">
-			<ol class="carousel-indicators">
+			<ul class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="acitve"></li>
 				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="3"></li>
-			</ol>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ul>
 
 			<div class="carousel-inner">
 				<!-- Item One -->
@@ -42,11 +50,12 @@
 			<div class="col-md-12 featured">
 				<h1>Lorem Ipsum</h1>
 				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-				<a href="links.php" class="btn btn-lg btn-primary" type="button">Erfahren Sie mehr...</a>
+				<a href="links.php" class="btn btn-lg btn-primary" type="button" title="Un zeug">Erfahren Sie mehr...</a>
 			</div>
 		</div>
 	</div>
-
-	<!-- Body END-->
-
-<?php include "footer.php";?>
+	<?php 
+	include('php/layout/footer.php');
+?>
+</body>
+</html>

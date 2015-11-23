@@ -1,24 +1,19 @@
-<?php include "header.php";?>
-
-	<!-- Body -->
+<!DOCTYPE html>
+<html>
+<head>
+<?php 
+	include ("php/layout/header.php");
+?>
+</head>
+<body>
+	<?php 
+		include('php/layout/nav.php');
+	?>
 	<div class="container">
-		<!-- Carousel -->
-		<div id="myCarousel" class="carousel slide">
-			
-			<div class="carousel-inner">
-				<!-- Item One -->
-				<div class="item active">
-					<img src="imgs/impressum.jpg" alt="Buch und Brille" class="img-responsive">
-					<div class="carousel-caption"><h1>Impressum</h1><p>Angaben gemäß § 5 TMG</p></div>
-				</div>
-			</div>
-		</div>
-		<!-- Carousel ENDE -->
-		
 		<div class="row">
 			<div class="col-md-12 featured">
-				<div class='impressum'>
-				
+				<h1>§Impressum§</h1>
+				<img src="imgs/impressum.jpg" alt="Buch und Brille" class="img-responsive">				
 
 				<p>Simon von Schnakenburg <br> 
 				Marburger Str. 41<br> 
@@ -82,12 +77,11 @@
 				Der Nutzung von Quelle: <a href="http://www.impressum-generator.de">Impressum Generator</a> der 
 				<a href="http://www.kanzlei-hasselbach.de/rechtsanwalt-frankfurt/">Kanzlei Hasselbach</a>
 				</p>
-				</div>
-				 
 			</div>
 		</div>
 	</div>
-
-	<!-- Body END-->
-
-<?php include "footer.php";?>
+	<?php 
+	include('php/layout/footer.php');
+?>
+</body>
+</html>
