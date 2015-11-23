@@ -1,36 +1,33 @@
 <!DOCTYPE html>
-<html>
-<head>
-<?php 
-	include ("php/layout/header.php");
-?>
-</head>
-<body>
-	<?php 
-		include('php/layout/nav.php');
-	?>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 featured">
-				<h1>§Impressum§</h1>
-				<img src="imgs/impressum.jpg" alt="Buch und Brille" class="img-responsive">				
 
-				<p>Simon von Schnakenburg <br> 
+<?php 
+include ("php/layout/header.php");
+?>
+<?php 
+include('php/layout/nav.php');
+?>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 featured">
+			<h1>§Impressum§</h1>
+			<img src="imgs/impressum.jpg" alt="Buch und Brille" class="img-responsive">				
+
+			<p>Simon von Schnakenburg <br> 
 				Marburger Str. 41<br> 
 				35457 Lollar <br> 
-				</p>
+			</p>
 
-				<p>
+			<p>
 				<strong>Vertreten durch: </strong><br>
 				Simon von Schnakenburg<br>
-				</p>
+			</p>
 
-				<p><strong>Kontakt:</strong> <br>
+			<p><strong>Kontakt:</strong> <br>
 				Telefon: 0176-95812565<br>
 				E-Mail: <a href='mailto:simon.von.schnakenburg@mni.thm.de'>simon.von.schnakenburg@mni.thm.de</a></br>
-				</p>
+			</p>
 
-				<p><strong>Haftungsausschluss: </strong><br>
+			<p><strong>Haftungsausschluss: </strong><br>
 				<br>
 				<strong>Haftung für Inhalte</strong><br>
 				<br>
@@ -76,12 +73,12 @@
 				Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.<br>
 				Der Nutzung von Quelle: <a href="http://www.impressum-generator.de">Impressum Generator</a> der 
 				<a href="http://www.kanzlei-hasselbach.de/rechtsanwalt-frankfurt/">Kanzlei Hasselbach</a>
-				</p>
-			</div>
+			</p>
 		</div>
 	</div>
-	<?php 
-	include('php/layout/footer.php');
+</div>
+<?php 
+include('php/layout/footer.php');
 ?>
 </body>
 </html>

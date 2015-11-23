@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html>
-<head>
+
 <?php 
-	include ("php/layout/header.php");
+include ("php/layout/header.php");
 ?>
-</head>
-<body>
-	<?php 
-		include('php/layout/nav.php');
-	?>
+<?php 
+include('php/layout/nav.php');
+?>
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12">
@@ -70,7 +67,7 @@
 	</div>
 </div>
 <?php 
-	include('php/layout/footer.php');
+include('php/layout/footer.php');
 ?>
 </body>
 </html>

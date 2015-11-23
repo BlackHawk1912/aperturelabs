@@ -12,9 +12,9 @@
     <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
             <li><a href="index.php" title="Startseite">Start</a></li>
-            <li><a href="links.php" title="Links">Links</a></li>
-            <li><a href="studium.php" title="Studium">Studium</a></li>
-            <li><a href="impressum.php" title="Impressum">Impressum</a></li>
+            <li><a href="links.php" title="Verlinkungne um Rahmen der Aufgabenstellung">Links</a></li>
+            <li><a href="studium.php" title="Suchformular für die deutsche Wikipedia">Wikipedia Suche</a></li>
+            <li><a href="impressum.php" title="Impressum und Datenschutz">Impressum</a></li>
         </ul>
     </div>
     </div>
