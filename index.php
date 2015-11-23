@@ -48,7 +48,7 @@ include('php/layout/nav.php');
 			<h1>Hallo,</h1>
 			<p>mein Name ist Simon von Schnakenburg. Ich bin Informatik-Student an der Technischen Hochschule Mittelhessen, kurz THM. Im aktuellen, zweiten Semester habe ich die Kurse IBS, AuD, PIS, RfI sowie BWL belgegt. Dazu kommt noch der Kurs NTG aus dem ersten Semester.</p>
 			<p>Diese Webseite ist im Rahmen des Kurses IBS (Internetbasierte Systeme) entstanden. </p>
-			<h3>Erläuterung der Abkürzungen:</h3>
+			<h2>Erläuterung der Abkürzungen:</h2>
 			<table class="table">
 				<tr id="head">
 					<th>Abkürung</th>

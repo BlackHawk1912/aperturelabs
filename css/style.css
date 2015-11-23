@@ -1,3 +1,12 @@
+/*
+#595959 auf #fff
+#414141 auf #d6d6d6
+
+
+
+*/
+
+
 /* === MISC ===*/
 body {
 	font-size: 17px;
@@ -22,13 +31,13 @@ body {
 }
 
 .navbar-brand {
-	color: #666 !important;
+	color: #414141 !important;
 	font-weight: bold;
 	font-size: 30px;
 }
 
 .navbar-right a {
-	color: #666;
+	color: #414141 !important;
 }
 
 .navbar-right a:hover {
@@ -46,11 +55,12 @@ body {
 .navbar-brand img {
 	height: 250%;
 }
+
 /* === FOOTER ===*/
 .footer {
 	background-color: #d6d6d6;
 	border-top: solid 7px #3399cc;
-	color: #898989;
+	color: #414141;
 	font-size: 14px !important;
 	font-weight: initial;
 	text-align: center;
@@ -62,7 +72,7 @@ body {
 
 .featured {
 	padding: 40px;
-	color: #898989;
+	color: #595959;
 	font-size: 115%;
 	text-align: left;
 	margin-bottom: 40px;
@@ -136,7 +146,7 @@ body {
 }
 
 table #head{
-	background-color: #898989;
+	background-color: #595959;
 	color: #fff;
 }
 
