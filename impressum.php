@@ -9,27 +9,30 @@ include('php/layout/nav.php');
 <div class="container">
 	<div class="row">
 		<div class="col-md-12 featured">
-			<h1>§Impressum§</h1>
 			<img src="imgs/impressum.jpg" alt="Buch und Brille" class="img-responsive">				
+			<h1>Impressum</h1>
 
 			<p>Simon von Schnakenburg <br> 
 				Marburger Str. 41<br> 
 				35457 Lollar <br> 
 			</p>
 
-			<p>
-				<strong>Vertreten durch: </strong><br>
-				Simon von Schnakenburg<br>
-			</p>
-
-			<p><strong>Kontakt:</strong> <br>
+			<p><h2>Kontakt:</h2><br>
 				Telefon: 0176-95812565<br>
 				E-Mail: <a href='mailto:simon.von.schnakenburg@mni.thm.de'>simon.von.schnakenburg@mni.thm.de</a></br>
 			</p>
 
-			<p><strong>Haftungsausschluss: </strong><br>
+			<br>
+			<h2>Validierung durch WAVE</h2>
+			<p>
+				<a href="http://wave.webaim.org/report#/http://aperturelabs23.cloudcontrolled.com" title="WAVE Validierung">WAVE Test dieser Seite</a>
+				<a href="http://www.w3.org/WAI/WCAG2AAA-Conformance" title="Explanation of WCAG 2.0 Level Triple-A Conformance">
+				  <img height="32" width="88" src="http://www.w3.org/WAI/wcag2AAA-blue" alt="Level Triple-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"></a>
+			</p>
+			<hr>
+			<p><h1>Haftungsausschluss: </h1><br>
 				<br>
-				<strong>Haftung für Inhalte</strong><br>
+				<h2>Haftung für Inhalte</h2><br>
 				<br>
 				Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit 
 				und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß 
@@ -41,7 +44,7 @@ include('php/layout/nav.php');
 				konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir 
 				diese Inhalte umgehend entfernen.<br>
 				<br>
-				<strong>Haftung für Links</strong><br>
+				<h2>Haftung für Links</h2><br>
 				<br>
 				Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. 
 				Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten 
@@ -51,7 +54,7 @@ include('php/layout/nav.php');
 				ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von 
 				Rechtsverletzungen werden wir derartige Links umgehend entfernen.<br>
 				<br>
-				<strong>Urheberrecht</strong><br>
+				<h2>Urheberrecht</h2><br>
 				<br>
 				Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem 
 				deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der 
@@ -63,7 +66,7 @@ include('php/layout/nav.php');
 				aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen 
 				werden wir derartige Inhalte umgehend entfernen.<br>
 				<br>
-				<strong>Datenschutz</strong><br>
+				<h2>Datenschutz</h2><br>
 				<br>
 				Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. 
 				Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) 

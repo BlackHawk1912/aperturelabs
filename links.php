@@ -17,7 +17,7 @@ include('php/layout/nav.php');
 			<div class="thumbnail">
 				<img src="imgs/svns41.png" alt="Github Logo">
 				<div class="caption">
-					<h3>Mein Profil auf Github</h3>
+					<h2>Mein Profil auf Github</h2>
 					<p class="link">https://github.com/BlackHawk1912</p>
 					<p class="text-center"><a href="https://github.com/BlackHawk1912" target="blank" class="btn btn-primary" role="button" title="Github Profil">Klick...</a></p>
 					<p>Der link zu meinem Github Profil</p>
@@ -30,7 +30,7 @@ include('php/layout/nav.php');
 			<div class="thumbnail">
 				<img src="imgs/codecademy.png" alt="Codecademy Logo">
 				<div class="caption">
-					<h3>Mein Codecademy Profil</h3>
+					<h2>Mein Codecademy Profil</h2>
 					<p class="link">http://codecademy.com/svns41</p>
 					<p class="text-center"><a href="http://codecademy.com/svns41" target="blank" class="btn btn-primary" role="button" title="Codecademy">Klick...</a></p>
 					<p>Hier sind alle meine abgeschlossenen Codecademy-Kurse einsehbar (für registrierte Mitgleider)</p>
@@ -43,7 +43,7 @@ include('php/layout/nav.php');
 			<div class="thumbnail">
 				<img src="imgs/github_pr.png" alt="Github Logo">
 				<div class="caption">
-					<h3>Github Pull Request "svns41"</h3>
+					<h2>Github Pull Request "svns41"</h2>
 					<p class="link">https://github.com/BlackHawk1912/aperturelabs.git</p>
 					<p class="text-center"><a href="https://github.com/BlackHawk1912/aperturelabs.git" target="blank" class="btn btn-primary" role="button" title="Github eigenes Repo">Klick...</a></p>
 					<p>Der Pull Request Link für diese Seite</p>
@@ -56,7 +56,7 @@ include('php/layout/nav.php');
 			<div class="thumbnail">
 				<img src="imgs/github_pr.png" alt="Github Logo">
 				<div class="caption">
-					<h3>Github Pull Request "Kommilitone"</h3>
+					<h2>Github Pull Request "Kommilitone"</h2>
 					<p class="link">https://github.com/csar56/WS2015.git</p>
 					<p class="text-center"><a href="https://github.com/csar56/WS2015.git" target="blank" class="btn btn-primary" role="button" title="Github Partner Repo">Klick...</a></p>
 					<p>Der Link zum "Pull Request", den ich als Reviewer gestellt haben</p>
