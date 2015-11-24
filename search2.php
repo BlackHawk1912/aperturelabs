@@ -15,15 +15,12 @@ include('php/layout/nav.php');
 				<h1>Suche in der deutschsprachigen Wikipedia</h1>
 				<form class="searchbox form-inline form-horizontal" action="http://de.wikipedia.org/wiki/Spezial:Suche" name="searchbox">
 					<label for="searchArea">Suche:</label>
-					<input id ="search" class="form-control" type="text" size="30" placeholder="Jetzt Suchen!" name="search"></input>
+					<input id ="searchArea" class="form-control" type="text" size="30" placeholder="Jetzt Suchen!" name="search"></input>
 					<input class="btn btn-default articleSearch" type="submit" value="Artikel-Suche"></input>
 					<input class="btn btn-default fullSearch" type="submit" value="Volltextsuche"></input>
 				</form>
 			</div>
 		</div>
-
-
-
 	</div>
 </div>
 <?php 
