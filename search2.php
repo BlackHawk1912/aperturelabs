@@ -3,6 +3,9 @@
 <?php 
 include ("php/layout/header.php");
 ?>
+	<title>Wikipedia Suche</title>
+</head>
+<body>
 <?php 
 include('php/layout/nav.php');
 ?>
@@ -20,6 +23,13 @@ include('php/layout/nav.php');
 					<input class="btn btn-default fullSearch" type="submit" value="Volltextsuche"></input>
 				</form>
 			</div>
+			<hr>
+			<h2>Validierung durch WAVE</h2>
+			<p>
+				<a href="http://wave.webaim.org/report#/http://aperturelabs23.cloudcontrolled.com" title="WAVE Validierung">WAVE Test dieser Seite</a>
+				<a href="http://www.w3.org/WAI/WCAG2AAA-Conformance" title="Explanation of WCAG 2.0 Level Triple-A Conformance">
+				  <img height="32" width="88" src="http://www.w3.org/WAI/wcag2AAA-blue" alt="Level Triple-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"></a>
+			</p>
 		</div>
 	</div>
 </div>

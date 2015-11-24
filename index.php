@@ -3,6 +3,9 @@
 <?php 
 include ("php/layout/header.php");
 ?>
+	<title>svns41</title>
+</head>
+<body>
 <?php 
 include('php/layout/nav.php');
 ?>

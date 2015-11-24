@@ -3,14 +3,17 @@
 <?php 
 include ("php/layout/header.php");
 ?>
+	<title>Impressum</title>
+</head>
+<body>
 <?php 
 include('php/layout/nav.php');
 ?>
 <div class="container">
 	<div class="row">
 		<div class="col-md-12 featured">
-			<img src="imgs/impressum.jpg" alt="Buch und Brille" class="img-responsive">				
 			<h1>Impressum</h1>
+			<img src="imgs/impressum.jpg" alt="Buch und Brille" class="img-responsive">				
 
 			<p>Simon von Schnakenburg <br> 
 				Marburger Str. 41<br> 
@@ -23,12 +26,6 @@ include('php/layout/nav.php');
 			</p>
 
 			<br>
-			<h2>Validierung durch WAVE</h2>
-			<p>
-				<a href="http://wave.webaim.org/report#/http://aperturelabs23.cloudcontrolled.com" title="WAVE Validierung">WAVE Test dieser Seite</a>
-				<a href="http://www.w3.org/WAI/WCAG2AAA-Conformance" title="Explanation of WCAG 2.0 Level Triple-A Conformance">
-				  <img height="32" width="88" src="http://www.w3.org/WAI/wcag2AAA-blue" alt="Level Triple-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"></a>
-			</p>
 			<hr>
 			<p><h1>Haftungsausschluss: </h1><br>
 				<br>

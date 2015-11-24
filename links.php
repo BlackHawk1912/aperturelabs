@@ -3,12 +3,15 @@
 <?php 
 include ("php/layout/header.php");
 ?>
+	<title>Links</title>
+</head>
+<body>
 <?php 
 include('php/layout/nav.php');
 ?>
 <div class="container">
 	<div class="row">
-		<div class="col-sm-12">
+		<div class="col-sm-12 featured">
 			<h1>Links</h1>
 			<img src="imgs/book-and-glasses.jpg" alt="Buch und Brille" class="img-responsive">
 		</div>
