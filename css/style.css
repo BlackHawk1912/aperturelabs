@@ -1,16 +1,16 @@
 /*
+Contrast Ratio min.: 7:1
 #595959 auf #fff
 #414141 auf #d6d6d6
-
-
-
 */
-
 
 /* === MISC ===*/
 body {
 	font-size: 17px;
 }
+html, body {
+  height:92%;
+} 
 
 .btn-primary {
 	background-color: #3399cc;
@@ -100,6 +100,9 @@ body {
 	border-right: 4px solid #d6d6d6;
 	padding-left: 40px;
 	padding-right: 40px;
+	min-height: 100%;
+	height:auto !important;
+	height:100%;;
 }
 
 .thumbnail {
