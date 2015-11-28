@@ -15,7 +15,7 @@ include('php/layout/nav.php');
 	<div class="row">
 	
 		<div class="col-md-12 featured">
-			<h1>Start</h1>
+			<h1>Startseite</h1>
 			<p class="header-img">
 				<img src="imgs/books.jpg" alt="Bücher" class="img-responsive">
 			</p>
