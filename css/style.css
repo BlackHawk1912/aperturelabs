@@ -8,9 +8,17 @@ Contrast Ratio min.: 7:1
 body {
 	font-size: 17px;
 }
+
 html, body {
   height:100%;
 } 
+
+.hyphens {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 
 .btn-primary {
 	background-color: #3399cc;
@@ -139,8 +147,6 @@ html, body {
 .container {
 	border-left: 4px solid #d6d6d6;
 	border-right: 4px solid #d6d6d6;
-	padding-left: 40px;
-	padding-right: 40px;
 	min-height: 100%;
 	height:auto !important;
 	height:100%;;
@@ -200,10 +206,14 @@ table #head{
 		border-top: 4px solid #d6d6d6;
 	}
 
-
 	.container {
-		padding-left: 10px;
-		padding-right: 10px;
 		border: none;
+	}
+}
+
+@media only screen and (min-width: 767px) { 
+	.container {
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 }

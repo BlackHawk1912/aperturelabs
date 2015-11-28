@@ -13,7 +13,7 @@
         <ul class="nav navbar-nav">
             <li><a href="/" title="Startseite">Start</a></li>
             <li><a href="links.php" title="Verlinkungne um Rahmen der Aufgabenstellung">Verlinkungen</a></li>
-            <li><a href="search2.php" title="Suchformular für die deutsche Wikipedia">Wikipedia Suche</a></li>
+            <li><a href="search.html" title="Suchformular für die deutsche Wikipedia">Wikipedia Suche</a></li>
             <li><a href="impressum.php" title="Impressum und Datenschutz">Impressum</a></li>
         </ul>
     </div>

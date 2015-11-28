@@ -9,7 +9,7 @@ include ("php/layout/header.php");
 <?php 
 include('php/layout/nav.php');
 ?>
-<div class="container">
+<div class="container hyphens">
 	<div class="row">
 		<div class="col-sm-12 featured">
 			<h1>Links</h1>
