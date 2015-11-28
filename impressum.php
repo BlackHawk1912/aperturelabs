@@ -13,11 +13,12 @@ include('php/layout/nav.php');
 	<div class="row">
 		<div class="col-md-12 featured">
 			<h1>Impressum</h1>
-			<img src="imgs/impressum.jpg" alt="Buch und Brille" class="img-responsive">				
-
+			<p class="header-img">
+				<img src="imgs/impressum.jpg" alt="Buch und Brille" class="img-responsive">				
+			</p>
 			<p>Simon von Schnakenburg <br> 
-				Marburger Str. 41<br> 
-				35457 Lollar <br> 
+				Forsthausweg 12<br> 
+				35394 Gießen<br> 
 			</p>
 
 			<p><h2>Kontakt:</h2><br>

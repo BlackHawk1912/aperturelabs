@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <?php 
 include ("php/layout/header.php");
@@ -67,7 +67,7 @@ include('php/layout/nav.php');
 				</tr>
 				<tr>
 					<th>AuD</th>
-					<th>Alogrithmen und Datenstrukturen</th>
+					<th>Algorithmen und Datenstrukturen</th>
 				</tr>
 				<tr>
 					<th>RfI</th>

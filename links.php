@@ -13,7 +13,11 @@ include('php/layout/nav.php');
 	<div class="row">
 		<div class="col-sm-12 featured">
 			<h1>Links</h1>
-			<img src="imgs/book-and-glasses.jpg" alt="Buch und Brille" class="img-responsive">
+			<p class="header-img">
+				<img src="imgs/book-and-glasses.jpg" alt="Buch und Brille" class="img-responsive">
+			</p>
+
+			<p>Im Rahmen der Aufgabenstellung in der diese Website entstanden ist, finden Sie nachfolgen die geforderten Verlinkungen zu meinem Codecadamy Profil, und die Links zu den Pull Request. Zusätzlihc gibt es noch einen Link zu meinem Github Profil.</p>
 		</div>
 		<!-- Github Profil -->
 		<div class="col-sm-6 col-md-3 widget">
