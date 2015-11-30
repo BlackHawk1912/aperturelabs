@@ -20,12 +20,14 @@ include('php/layout/nav.php');
 				<img src="imgs/books.jpg" alt="Bücher" class="img-responsive">
 			</p>
 			<h2>Hallo,</h2>
-			<p>mein Name ist Simon von Schnakenburg. Ich bin Informatik-Student an der Technischen Hochschule Mittelhessen, kurz THM. Im aktuellen, zweiten Semester habe ich die Kurse IBS, AuD, PIS, RfI sowie BWL belgegt. Dazu kommt noch der Kurs NTG aus dem ersten Semester.</p>
+			<p>mein Name ist Simon von Schnakenburg. An der Technischen Hochschule Mittelhessen, kurz THM, 
+			studiere Ich Informatik im zweiten Semster. Aktuell habe ich die Kurse IBS, AuD, PIS, RfI 
+			sowie BWL belgegt. Dazu kommt noch der Kurs NTG aus dem ersten Semester.</p>
 			<p>Diese Webseite ist im Rahmen des Kurses IBS (Internetbasierte Systeme) entstanden. </p>
 			<h2>Erläuterung der Abkürzungen:</h2>
 			<table class="table">
 				<tr id="head">
-					<th>Abkürung</th>
+					<th>Abkürzung</th>
 					<th>Bedeutung</th>
 				</tr>
 				<tr>
