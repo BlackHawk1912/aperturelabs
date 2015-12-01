@@ -23,7 +23,7 @@ include('php/layout/nav.php');
 
 			<p><h2>Kontakt:</h2>
 				Telefon: 0176-95812565
-				E-Mail: <a href='mailto:simon.von.schnakenburg@mni.thm.de'>simon.von.schnakenburg@mni.thm.de</a></br>
+				E-Mail: <a href='mailto:simon.von.schnakenburg@mni.thm.de'>simon.<span style="display:none"> </span>von.<span style="display:none"> </span>schnakenburg@<span style="display:none"> </span>mni.thm.de</a></br>
 			</p>
 
 			
