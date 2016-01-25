@@ -15,6 +15,7 @@
             <li><a href="links.php" title="Verlinkungne um Rahmen der Aufgabenstellung">Verlinkungen</a></li>
             <li><a href="search.php" title="Suchformular für die deutsche Wikipedia">Wikipedia Suche</a></li>
             <li><a href="impressum.php" title="Impressum und Datenschutz">Impressum</a></li>
+            <li><a href="statistik.php" title="ARSnova Nutzungsstatistik">ARSnova Statistik</a></li>
         </ul>
     </div>
     </div>
