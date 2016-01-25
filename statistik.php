@@ -6,7 +6,7 @@ include ("php/layout/header.php");
 	<title>ARSnova Nutzungsstatistik</title>
 	<script language="javascript" type="text/javascript" src="js/ARSnovaStats.js"></script>
 	<script language="javascript" type="text/javascript" src="js/jquery.min.js"></script>
-	<script language="javascript" type="text/javascript" 	src="js/jquery.flot.min.js"></script>
+	<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js"></script>
 </head>
 
 <body>
