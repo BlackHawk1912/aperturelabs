@@ -4,9 +4,9 @@
 include ("php/layout/header.php");
 ?>
 	<title>ARSnova Nutzungsstatistik</title>
-	<script language="javascript" type="text/javascript" src="js/ARSnovaStats.js"></script>
-	<script language="javascript" type="text/javascript" src="js/jquery.min.js"></script>
-	<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/Chart.js"></script>
+		<script type="text/javascript" src="js/ARscriptNova.js"></script>
 </head>
 
 <body>
@@ -17,16 +17,7 @@ include('php/layout/nav.php');
 	<div class="row">
 		<div class="col-md-12 featured">
 			<h1>ARSnova Nutzungsstatistik</h1>
-			<!--<p class="header-img">
-				<img src="imgs/impressum.jpg" alt="Buch und Brille" class="img-responsive">				
-			</p>
-			<p>Simon von Schnakenburg</br>
-			Forsthausweg 12</br>
-				35394 Gießen</br>
-			</p>-->
-
-			<div id="placeholder" style="width:600px;height:300px"></div>
-			<div class="graph"></div>
+			<canvas id="graph"></canvas>
 		</div>
 	</div>
 </div>
@@ -34,9 +25,4 @@ include('php/layout/nav.php');
 include('php/layout/footer.php');
 ?>
 </body>
-<script type="text/javascript">
-	$(document).ready(function(){
-	chart1 = $.plot($("#placeholder"), [[1,2],[2,3],[4,5]], {});
-});
-</script>
 </html>
